@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>My Car Store</title>
+        <link href="./styles.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+
+        <div id="wrap">
+
+                <form onsubmit="return window.validate();" action="customerBackend.php" method="post">
+
+                    <h1>My Car Store</h1>
+
+                    <h3><u>Credentials</u></h3>
+
+                    <div class="horizWrap" id="credentialsInputWrapper">
+                        <div class="textInput">
+                            <div class="lbl">Email Address</div>
+                            <input type="text" name="email" id="email">
+                        </div>
+                        <div class="textInput">
+                            <div class="lbl">Password</div>
+                            <input type="password" name="password" id="password">
+                        </div>
+                    </div>
+
+                    <h3><u>Store of Car Item Selection</u></h3>
+
+                    <div class="horizWrap" id="itemsWrapper">
+                        <div class="item">
+                            <div class="lbl">Lamborghini</div>
+                            <div><img src="./img/lab0901.jpg" width="300" height="300"></div>
+                            <div class="priceLbl">Price: $10000000.00</div>
+                            <div class="inputQty">Quantity: <input type="text" value="0" name="item0qty" id="item0qty"></div>
+                        </div>
+                        <div class="item">
+                            <div class="lbl">G500</div>
+                            <div><img src="./img/lab0902.jpg" width="300" height="300"></div>
+                            <div class="priceLbl">Price: $5000000.00</div>
+                            <div class="inputQty">Quantity: <input type="text" value="0" name="item1qty" id="item1qty"></div>
+                        </div>
+                        <div class="item">
+                            <div class="lbl">Mercedes</div>
+                            <div><img src="./img/lab0903.jpg" width="300" height="300"></div>
+                            <div class="priceLbl">Price: $1500000.00</div>
+                            <div class="inputQty">Quantity: <input type="text" value="0" name="item2qty" id="item2qty"></div>
+                        </div>
+                    </div>
+
+                    <h3><u>Shipping Options</u></h3>
+
+                    <div class="horizWrap" id="shippingWrapper">
+                        <div class="shipOpt"><input type="radio" name="shipCost" value="0">Free 7-day</div>
+                        <div class="shipOpt"><input type="radio" name="shipCost" value="5">$5.00 3-day</div>
+                        <div class="shipOpt"><input type="radio" name="shipCost" value="50">$50.00 Overnight</div>
+                    </div>
+
+                    <div class="horizWrap" id="submitWrapper">
+                        <div class="subWrap"><input type="submit" class="sub" value="Submit Order"></div>
+                        <div class="subWrap"><input type="reset" class="sub" value="Reset"></div>
+                    </div>
+
+                </form>
+
+
+
+        </div>
+
+
+
+        <script type="text/javascript" src="formChecker.js"></script>
+    </body>
+</html>

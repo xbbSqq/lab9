@@ -1,0 +1,116 @@
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+p {
+  font-size: 40px;
+  text-align: center;
+}
+
+table, th, td {
+  font-size: 30px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.tablehead {
+  background-color: lightgreen;
+}
+
+.tablebody {
+  background-color: magenta;
+}
+
+#wrapPHP {
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(circle farthest-corner at bottom, yellow, orange, red);
+}
+
+#wrap {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(45deg , red , blue);
+  color: white;
+  text-shadow:
+  -2px -2px 0 #000,
+  2px -2px 0 #000,
+  -2px 2px 0 #000,
+  2px 2px 0 #000;
+    display: flex;
+    justify-content: center;
+    font-family: arial;
+    text-align: center;
+    margin: auto;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  font-size: 60px;
+
+  text-shadow:
+  -2px -2px 0 #000,
+  2px -2px 0 #000,
+  -2px 2px 0 #000,
+  2px 2px 0 #000;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+img:hover {
+  transform: scaleX(1.25);
+}
+
+.textInput {
+    padding: 20px;
+}
+
+.lbl {
+    font-size: 30px;
+}
+
+.priceLbl {
+    font-size: 25px;
+    padding: 10px;
+}
+
+.inputQty {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.horizWrap {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    border-width: 5px;
+    border-color: black;
+}
+
+.item {
+    float: right;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.shipOpt {
+    font-size: 25px;
+    padding: 20px;
+}
+
+.subWrap {
+    padding: 30px;
+}
+
+.sub {
+    font-size: 30px;
+}
